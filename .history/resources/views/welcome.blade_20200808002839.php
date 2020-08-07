@@ -11,7 +11,6 @@
     <body>
         <h2>hola</h2>
         <h3>maricso</h3>
-        <h4>dads</h4>
             <div id="app" class="content">
                 <div class="flex-center position-ref full-height">
                     @if (Route::has('login'))
