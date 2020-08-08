@@ -15,12 +15,10 @@
                     @endif
 
                     {{ __('You are logged in!') }}
-                  
+                    <formulario></formulario>
                 </div>
             </div>
         </div>
-        
     </div>
-    <formulario></formulario>
 </div>
 @endsection

@@ -21,7 +21,7 @@ window.Vue = require('vue');
 
 //CREAR COMPONENTES
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-Vue.component('formulario', require('./components/formularioLogin.vue').default);
+Vue.component('formularioLogin', require('./components/formulario_login.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
