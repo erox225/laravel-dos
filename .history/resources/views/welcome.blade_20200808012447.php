@@ -9,8 +9,7 @@
         <link href="{{asset('css/app.css')}}" rel="stylesheet"> 
     </head>
     <body>
-        <p>Esto es en nuevarama
-        </p>
+        <p>Esto es de master</p>
             <div id="app" class="content">
                 <div class="flex-center position-ref full-height">
                     @if (Route::has('login'))
