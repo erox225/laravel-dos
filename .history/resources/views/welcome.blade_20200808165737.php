@@ -11,10 +11,10 @@
 </head>
 
 <body>
-    @if(!empty(@Auth::user()))
-         @if(@Auth::user()->hasRole('cliente') )
-              <h2>Eres un cliente</h2>
-         @endif
+    <?php
+    ?>
+    @if(@Auth::user())
+        <h2>Eres un cliente</h2>
     @endif
     <div id="app" class="content">
         <div class="flex-center position-ref full-height">

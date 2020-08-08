@@ -11,11 +11,7 @@
 </head>
 
 <body>
-    @if(!empty(@Auth::user()))
-         @if(@Auth::user()->hasRole('cliente') )
-              <h2>Eres un cliente</h2>
-         @endif
-    @endif
+
     <div id="app" class="content">
         <div class="flex-center position-ref full-height">
             @if(Route::has('login'))
