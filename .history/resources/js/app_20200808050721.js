@@ -31,7 +31,7 @@ const app = new Vue({
     el: '#app',
 });
 
-// Vuetify
-window.Vue = require('vue');
-import Vuetify from 'vuetify';
+
+window.Vue = require(‘vue’);
+import Vuetify from ‘vuetify’;
 Vue.use(Vuetify);
