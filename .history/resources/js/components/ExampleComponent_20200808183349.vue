@@ -95,6 +95,7 @@
                         alert("entro");
                     }
                     console.log(error);
+                     this.hola=error;
                 });   
                 
             },

@@ -1976,7 +1976,8 @@ __webpack_require__.r(__webpack_exports__);
       ninguna tarea, pero si es diferente de 0 entonces tendrá el id de la tarea y no mostrará el boton guardar sino el modificar*/
       arrayTasks: [],
       //Este array contendrá las tareas de nuestra bd
-      url_base: "/vue_laravel/segundo/public"
+      url_base: "/vue_laravel/segundo/public",
+      error: ""
     };
   },
   methods: {
@@ -2006,6 +2007,10 @@ __webpack_require__.r(__webpack_exports__);
 
         me.clearFields(); //Limpiamos los campos e inicializamos la variable update a 0
       })["catch"](function (error) {
+        if (error == "401 (Unauthorized)") {
+          alert("entro");
+        }
+
         console.log(error);
       });
     },
